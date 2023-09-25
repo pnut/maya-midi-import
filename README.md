@@ -3,6 +3,8 @@ This Maya python script imports midi files into Autodesk Maya and converts their
 ## Requirements
 * Maya 2022 or higher
 * Has been tested on Mac OS 13.5.1
+## Example Output
+https://github.com/pnut/maya-midi-import/assets/1393462/185c151b-9a9a-4d7e-8679-2ee54d359ea3
 ## Instructions
 1. Install `umidiparser` into your Maya Python environment by running the following command in your terminal or console. If you're not using Maya 2022, replace the Maya path to reflect the version you're using:
 ##### Mac OS
