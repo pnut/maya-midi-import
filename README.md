@@ -1,21 +1,21 @@
 # maya-midi-import
 This Maya python script imports midi files into Autodesk Maya and converts their note events into keyframes applied to cubes. Each cube represents a note in a particular channel and its Y scale is animated when the note is played and released. Pitch bend events will animate the Y translation of the cubes for an entire channel. All the cubes for a given channel will be placed in their own display layer. The amount the cubes are scaled and translated, as well as the timing of the attack, decay and release of notes, can be customized using a UI.
 ## Requirements
-* Maya 2022 or higher
+* Maya 2023 or higher
 * Has been tested on Mac OS 13.5.1
 ## Example Output
 Importing the `example/pachelbel.mid` into Maya and playing back the animation along with `example/pachelbel.mp3` yields the following results (turn on sound). 
 
 https://github.com/pnut/maya-midi-import/assets/1393462/d5312608-c43e-451f-bf0f-265b08097b95
 ## Instructions
-1. Install `umidiparser` into your Maya Python environment by running the following command in your terminal or console. If you're not using Maya 2022, replace the Maya path to reflect the version you're using:
+1. Install `umidiparser` in your Maya Python environment by running the following command in your Terminal (on Windows the Terminal needs to be run in [admin mode](https://learn.microsoft.com/en-us/windows/terminal/faq#how-do-i-run-a-shell-in-windows-terminal-in-administrator-mode). If you're using a later version than Maya 2023, replace the Maya path to reflect the version you're using:
 ##### Mac OS
 ```
-/Applications/Autodesk/maya2022/Maya.app/Contents/bin/mayapy -m pip install umidiparser
+/Applications/Autodesk/maya2023/Maya.app/Contents/bin/mayapy -m pip install umidiparser
 ```
 ##### Windows
 ```
-"C:\Program Files\Autodesk\Maya2022\bin\mayapy" -m pip install umidiparser
+"C:\Program Files\Autodesk\Maya2023\bin\mayapy" -m pip install umidiparser
 ```
 You should see the message `Successfully installed umidiparser-1.2`.
 
