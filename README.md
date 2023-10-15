@@ -2,7 +2,7 @@
 This Maya python script imports midi files into Autodesk Maya and converts their note events into keyframes applied to cubes. Each cube represents a note in a particular channel and its Y scale is animated when the note is played and released. Pitch bend events will animate the Y translation of the cubes for an entire channel. All the cubes for a given channel will be placed in their own display layer. The amount the cubes are scaled and translated, as well as the timing of the attack, decay and release of notes, can be customized using a UI.
 ## Requirements
 * Maya 2023 or higher
-* Has been tested on Mac OS 13.5.1
+* Has been tested on Mac OS 13.5.1 and Windows 10
 ## Example Output
 Importing the `example/pachelbel.mid` into Maya and playing back the animation along with `example/pachelbel.mp3` yields the following results (turn on sound). 
 
