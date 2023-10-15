@@ -8,7 +8,7 @@ Importing the `example/pachelbel.mid` into Maya and playing back the animation a
 
 https://github.com/pnut/maya-midi-import/assets/1393462/d5312608-c43e-451f-bf0f-265b08097b95
 ## Instructions
-1. Install `umidiparser` in your Maya Python environment by running the following command in your Terminal (on Windows the Terminal needs to be run in [admin mode](https://learn.microsoft.com/en-us/windows/terminal/faq#how-do-i-run-a-shell-in-windows-terminal-in-administrator-mode). If you're using a later version than Maya 2023, replace the Maya path to reflect the version you're using:
+1. Install `umidiparser` in your Maya Python environment by running the following command in your Terminal (on Windows the Terminal needs to be run in [admin mode](https://learn.microsoft.com/en-us/windows/terminal/faq#how-do-i-run-a-shell-in-windows-terminal-in-administrator-mode)). If you're using a later version than Maya 2023, replace the Maya path to reflect the version you're using:
 ##### Mac OS
 ```
 /Applications/Autodesk/maya2023/Maya.app/Contents/bin/mayapy -m pip install umidiparser
