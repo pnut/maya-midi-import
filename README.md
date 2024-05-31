@@ -19,7 +19,7 @@ https://github.com/pnut/maya-midi-import/assets/1393462/d5312608-c43e-451f-bf0f-
 ```
 You should see the message `Successfully installed umidiparser-1.2`.
 
-2. Open a new instance of Maya and set the the desired frame rate for your scene (Windows->Settings/Preferences->Preferences->Time Slider).
+2. Open a new instance of Maya and set the desired frame rate for your scene (Windows->Settings/Preferences->Preferences->Time Slider).
 
 3. Paste the contents of `maya_midi_import.py` into Maya's Script Editor (Python tab).
 
